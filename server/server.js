@@ -5,7 +5,7 @@ import config from './config/config.js'
 import {connectToDatabase} from './connectMongodb.js';
 import scoreRouter from './routes/scoreRouter.js';
 
-//routers
+const PORT = process.env.PORT || 80
 
 
 //connect to database
@@ -53,4 +53,4 @@ app.all('/*', (req, res) => {
         
 });
 
-app.listen(config.port, () => console.log(`App now listening on port ${config.port}`));
+app.listen(PORT, () => console.log(`App now listening on port ${PORT}`));
