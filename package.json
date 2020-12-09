@@ -1,0 +1,28 @@
+{
+  "name": "hamperman",
+  "version": "1.0.1",
+  "description": "Routing server-side requests using ExpressJS",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server/server.js",
+    "test": "cd server && node JSONToMongo.js"
+  },
+  "authors": [
+    {
+      "name": "Keith Levengood, adapted from Edward Mensah"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "async": "^3.1.1",
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.11",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

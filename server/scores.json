@@ -1,0 +1,26 @@
+[
+	{ "Name": "Alabama" , "Score": 20 },
+	
+	{ "Name": "Auburn" , "Score": 10 },
+	
+	{ "Name": "Florida" , "Score": 100 },
+
+	{ "Name": "FSU" , "Score": 0 },
+
+	{ "Name": "MIT" , "Score": 42 },
+
+	{ "Name": "Oxford" , "Score": 38 },
+
+	{ "Name": "Fredonia" , "Score": 3 },
+
+	{ "Name": "FredoniabutnotCS" , "Score": 40 },
+
+	{ "Name": "University of Buffalo" , "Score": 70 },
+
+	{ "Name": "Crime ratings in new york" , "Score": 80 },
+
+	{ "Name": "Living at home" , "Score": 20 },
+
+	{ "Name": "Alex Trebek" , "Score": 200 }
+
+]
